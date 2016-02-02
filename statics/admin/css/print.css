@@ -1,0 +1,12 @@
+@charset "utf-8";
+/*  Document Print */
+
+.print_function { display: none; }
+form.cleared { display: none; }
+.setfloat { display: none; }
+
+.payrollfm { display: none; }
+.trigger { display: none; }
+.wristband_container { margin-bottom: 15px; margin-top: 0px; border: none; }
+.wristband_separator { display: none; }
+.drug:nth-child(4n+1) { page-break-after: always; clear: none; }

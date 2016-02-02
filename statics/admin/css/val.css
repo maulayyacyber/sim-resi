@@ -1,0 +1,48 @@
+
+.form-div {
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size:11px;
+  border: 1px #ccc solid;
+  padding: 10px;
+  width: 550px;    
+	background-color:#def;
+}
+
+.form-div .submit {
+  margin-left: 155px;
+  margin-top: 10px;
+}
+
+.form-div .label {
+  display: block;
+  float: left;
+  width: 150px;
+  text-align: right;
+  margin-right: 5px;
+}
+.form-div .form-row {
+  padding: 5px 0;
+  clear: both;
+  width: 700px;
+}
+
+.form-div label.error {
+  width: 250px;
+  display: block;
+  float: left;
+  color: red;
+  padding-left: 10px;
+  background: url(unvalid.gif) no-repeat;
+}
+.form-div input {
+  width: 180px;
+  float: left;
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size:11px;
+}
+.form-div label.valid {
+  width: 24px;
+  background: url(valid.gif) center no-repeat;
+  display: inline-block;
+  text-indent: -9999px;
+}
